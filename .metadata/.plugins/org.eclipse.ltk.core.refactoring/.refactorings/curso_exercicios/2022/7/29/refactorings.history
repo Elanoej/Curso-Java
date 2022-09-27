@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;curso_exercicios&apos; to &apos;default_package&apos;&#x0D;&#x0A;- Original project: &apos;curso_exercicios&apos;&#x0D;&#x0A;- Original element: &apos;curso_exercicios/src/curso_exercicios&apos;&#x0D;&#x0A;- Renamed element: &apos;curso_exercicios/src/default_package&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;curso_exercicios&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;curso_exercicios" name="default_package" qualified="false" references="true" stamp="1657547703377" textual="false" version="1.0"/>
+</session>

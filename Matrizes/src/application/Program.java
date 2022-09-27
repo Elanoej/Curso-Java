@@ -24,7 +24,6 @@ public class Program {
 		}
 		
 		System.out.println("O cofator de a13: " + matriz.cofator(1, 3));
-		
 		System.out.println("O valor na posição 2x1: " + matriz.getValue(2, 1));
 		System.out.println("Determinante da matriz: ");
 		System.out.println(matriz.determinante());

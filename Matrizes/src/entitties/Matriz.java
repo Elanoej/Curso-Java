@@ -97,5 +97,23 @@ public class Matriz {
 		}
 		return (Math.pow(-1, i + j) * matrizLocal.determinante());
 	}
+	
+	 static int[][] orderFourToOrderThree(int[][] mat, int lineToRemove, int columnToRemove) {
+	        int[][] newMatrix = new int[3][3];
+
+	        for (int i = 0, x = 0; i < newMatrix.length; i++, x++) {
+	            if (i == lineToRemove) {
+	                x += 1;
+	            }
+	            for (int j = 0, y = 0; j < newMatrix[i].length; j++, y++) {
+	                if (j == columnToRemove) {
+	                    y += 1;
+	                }
+	                newMatrix[i][j] = mat[x][y];
+	            }
+	        }
+
+	        return newMatrix;
+	    }
 
 }
