@@ -22,7 +22,7 @@ public class Department implements Serializable{
 		return id;
 	}
 	
-	public void setID(Integer id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	
